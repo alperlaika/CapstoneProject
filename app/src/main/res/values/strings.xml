@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Florist_App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="total_price"> %.2f</string>
+<!--    <string name="signinTosignup">Don\'t Have an Account ? SIGN UP</string>-->
+<!--    <string name="signupTosignin"> I have an already account, SIGN IN</string>-->
+
+    <string name="card_name_surname">Kart Üstüneki İsim ve Soyisim</string>
+    <string name="card_number">Kart Numarası</string>
+    <string name="card_date">Ay / Yıl</string>
+    <string name="cvc">CVC</string>
+    <string name="pay">öDEME YAP</string>
+    <string name="return_home_page">Alışverişe Devam Et</string>
+    <string name="result_text">Siparişiniz kabul edildi !</string>
+    <string name="buy">Satın Al</string>
+    <string name="address">Adres:</string>
+    <string name="payment">ÖDEME BİLGİSİ</string>
+</resources>

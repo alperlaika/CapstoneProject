@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cart"
+    app:startDestination="@id/CartFragment">
+
+    <fragment
+        tools:layout="@layout/fragment_cart"
+        android:id="@+id/CartFragment"
+        android:name="com.laikaalper.florist_app.ui.cart.CartFragment"
+        android:label="CartFragment" />
+
+    <action
+        android:id="@+id/push_cart_fragment"
+        app:destination="@id/CartFragment" />
+
+    <fragment
+        tools:layout="@layout/fragment_detail"
+        android:id="@+id/detailFragment"
+        android:name="com.laikaalper.florist_app.ui.detail.DetailFragment"
+        android:label="DetailFragment"/>
+
+    <action
+        android:id="@+id/push_detail_fragment"
+        app:destination="@id/detailFragment" />
+
+    <fragment
+        tools:layout="@layout/fragment_sign_in"
+        android:id="@+id/signInFragment"
+        android:name="com.laikaalper.florist_app.ui.signIn.SignInFragment"
+        android:label="SignInFragment" />
+
+    <action
+        android:id="@+id/push_sign_in_fragment"
+        app:destination="@id/signInFragment" />
+
+    <fragment
+        tools:layout="@layout/fragment_sign_up"
+        android:id="@+id/SignUpFragment"
+        android:name="com.laikaalper.florist_app.ui.signUp.SignUpFragment"
+        android:label="SignUpFragment" />
+
+    <action
+        android:id="@+id/push_sign_up_fragment"
+        app:destination="@id/SignUpFragment" />
+
+    <fragment
+        tools:layout="@layout/fragment_payment"
+        android:id="@+id/PaymentFragment"
+        android:name="com.laikaalper.florist_app.ui.payment.PaymentFragment"
+        android:label="PaymentFragment" />
+
+    <action
+        android:id="@+id/push_payment_fragment"
+        app:destination="@id/PaymentFragment" />
+
+    <fragment
+        tools:layout="@layout/fragment_success"
+        android:id="@+id/SuccessFragment"
+        android:name="com.laikaalper.florist_app.ui.success.SuccessFragment"
+        android:label="SuccessFragment" />
+
+    <action
+        android:id="@+id/push_success_fragment"
+        app:destination="@id/SuccessFragment" />
+
+    <fragment
+        tools:layout="@layout/fragment_splash"
+        android:id="@+id/SplashFragment"
+        android:name="com.laikaalper.florist_app.ui.splash.SplashFragment"
+        android:label="SplashFragment" />
+
+    <action
+        android:id="@+id/push_splash_fragment"
+        app:destination="@id/SplashFragment" />
+
+    <fragment
+        tools:layout="@layout/fragment_home"
+        android:id="@+id/homeFragment"
+        android:name="com.laikaalper.florist_app.ui.home.HomeFragment"
+        android:label="HomeFragment" />
+
+    <action
+        android:id="@+id/push_home_fragment"
+        app:destination="@id/homeFragment" />
+
+
+</navigation>

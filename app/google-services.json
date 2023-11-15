@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "919087860958",
+    "project_id": "florist-app-firebase",
+    "storage_bucket": "florist-app-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:919087860958:android:d00f5a19ed74480702c64f",
+        "android_client_info": {
+          "package_name": "com.laikaalper.florist_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDN8TYLcApzf9Lgskbt2Z7vBFAvKIv6ORY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
