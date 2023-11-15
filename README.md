@@ -9,7 +9,8 @@ Hilt for Dependency Injection
 Retrofit
 Firebase Auth & Firestore
 Room Database
-Glide![Uploading payment.png…]()
-
+Glide
 Chucker
 Work Manager
+
+# Screens
